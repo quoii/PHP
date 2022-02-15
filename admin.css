@@ -1,0 +1,146 @@
+/*
+    Author: tan quoi;
+    theme: foood order website Admin;
+    Version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #0c2461;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #b71540;
+}
+
+.btn-secondary{
+    background-color: #1e3799;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #b71540;
+}
+
+.btn-danger{
+    background-color: #1e3799;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #b71540;
+}
+
+.success{
+    color: black;
+}
+
+.error{
+    color: violet;
+}
+
+.success{
+    color: black;
+}
+
+.error{
+    color: violet;
+}
+
+/* CSS for menu*/
+.menu{
+    border-bottom: 1px solid gray;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3867d6;
+}
+.menu ul li a:hover{
+    color: #fa8231;
+}
+/* */
+.main-content{
+    background-color: #d1d8e0 ;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color:whitesmoke;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for Footer */
+.footer{
+    background-color: #eb3b5a;
+    color: white;
+     
+}
+/* CSS for login */
+.login
+{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+}
